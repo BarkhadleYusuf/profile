@@ -1,0 +1,144 @@
+body {
+
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: 'Merriweather', serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  list-style: none;
+}
+
+.container {
+
+  align-items: center;
+  /* height: 600%; */
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  margin: 40px auto;
+
+  /* gap: 200px; */
+}
+
+.profile-picture-container {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.socials {
+  background-color: #fff;
+  font-size: 50px;
+
+  padding: -100px;
+  max-width: 600px;
+
+  margin: 1 auto;
+
+  gap: 20px;
+}
+
+.socials li {
+  display: inline;
+
+}
+
+.profile-picture-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-blue {
+  background-color: #008080;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #000000;
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #008080;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+a {
+  color: #008080;
+  text-decoration: none;
+}
+
+/* a:hover {
+  text-decoration: none;
+  color: #000000;
+} */
